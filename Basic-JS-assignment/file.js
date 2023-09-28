@@ -1,0 +1,1 @@
+// check whether the given file name is JS file or not
