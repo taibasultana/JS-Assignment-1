@@ -1,11 +1,14 @@
-const num = 15
-
-const difference = num-7;
-const double = num * 2;
-
-if(difference < 7){
-    console.log (difference);
+function isLGSeven(number){
+    const difference = number-7;
+    const double = number * 2;
+    if(difference < 7){
+        return (difference);
+    }
+    else{
+        return (double);
+    }
 }
-else{
-    console.log(double);
-}
+    console.log(isLGSeven(6));
+    console.log(isLGSeven(-15));
+    console.log(isLGSeven(15));
+
